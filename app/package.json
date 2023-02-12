@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-dms-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armynerh/fullstack-dms.git"
+  },
+  "author": "Kehinde Henshaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Armynerh/fullstack-dms/issues"
+  },
+  "homepage": "https://github.com/Armynerh/fullstack-dms#readme"
+}
