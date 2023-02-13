@@ -1,17 +1,17 @@
 version: '3.6'
 services:
-  # app:
-  #   build:
-  #     context: ./app
-  #     dockerfile: Dockerfile.dev
-  #   command: sh -c 'npm prune && npm install && npm run start:dev'
-  #   restart: always
-  #   ports:
-  #     - "3000:3000"
-  #   volumes:
-  #     - ./app:/app
-  #   depends_on:
-  #     - 'api'
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile.dev
+    command: sh -c 'npm prune && npm install && npm run dev'
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/app
+    depends_on:
+      - 'api'
 
   db:
     image: postgis/postgis:11-3.1-alpine
