@@ -1,5 +1,6 @@
 .DS_Store
 .env
+vpytest/
 .flaskenv
 *.pyc
 *.pyo
@@ -19,6 +20,7 @@ docs/_build/
 .vscode
 
 # Coverage reports
+.coveragerc
 htmlcov/
 .coverage
 .coverage.*
